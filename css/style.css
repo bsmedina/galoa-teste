@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #FFF;
+    --bege-claro: #FDF1EB;
+    --cinza-claro: #E5E5E5;
+    --cinza: #ECECEC;
+    --cinza-medio: #CCCCCC;
+    --cinza-escuro: #4E4E4E;
+    --laranja: rgb(248, 83, 6);
+    --laranja-transparencia: rgba(248, 83, 6, 0.5);
+    --laranja-escuro: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    --laranja-escuro-li: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    --laranja-medio: #ED7839;
+    --marrom-claro: rgba(141, 53, 6, 0.5);
+
+    --fonte-branca: #FFF;
+    --fonte-cinza-claro: #5C5C5C;
+    --fonte-cinza-medio: #4E4E4E;
+    --fonte-cinza-escuro: #333333;    
+    --fonte-laranja-medio: #ED7839;
+    --fonte-marrom-claro: #725C5C;
+
+    --roboto: 'Roboto', sans-serif;
+    --quicksand: 'Quicksand', sans-serif;
+}
