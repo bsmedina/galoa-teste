@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/sidebar-menu.css" />
         <title>SLACA 2019</title>
     </head>
     <body>
@@ -17,32 +18,76 @@
                     <i class="fas fa-bars" id="header-toggle"></i>
                 </div>
 
-                <section class="header-title">
-                    <h4>Anais do Simpósio Latino Americano de Ciências de Alimentos</h4>
-                    <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
-                    <h4>ISSN: 1234-5678</h4>
-                </section>
+                <div class="container-header">
+                    <section class="header-title">
+                        <h5>Anais do Simpósio Latino Americano de Ciências de Alimentos</h5>
+                        <h1>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h1>
+                        <h5>ISSN: 1234-5678</h5>
+                    </section>
 
-                <div class="lang-menu">
-                    <div class="selected-lang">PT, BR</div>
-                    <ul>
-                        <li>
-                            <a href="#" class="in"a>IN, EUA</a>
-                        </li>
-                        <li>
-                            <a href="#" class="es">ES, ESP</a>
-                        </li>
-                        <li>
-                            <a href="#" class="pt">PT, BR</a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="lang-menu">
+                        <div class="selected-lang">PT, BR</div>
+                        <ul>
+                            <li>
+                                <a href="#" class="in"a>IN, EUA</a>
+                            </li>
+                            <li>
+                                <a href="#" class="es">ES, ESP</a>
+                            </li>
+                            <li>
+                                <a href="#" class="pt">PT, BR</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="img-profile">
-                    <img src="/img/image-profile.png" alt="Imagem de perfil" />
+                    <div class="img-profile">
+                        <img src="img/image-profile.png" alt="Imagem de perfil" />
+                    </div>
                 </div>
             </nav>
         </header>
+
+        <aside>
+            <nav id= "backdrop">
+                <div class="sidebar-menu">
+                    <div class="container-sidebar-title">
+                        <div class= "text-sidebar">
+                            <h2>SLACA 2019</h2>
+                        </div>
+                    </div>
+
+                    <div class="logo">
+                        <img src="img/logo.png" alt="Logo Slaca 2019">
+                    </div>
+
+                    <div class="container-menu-nav">
+                        <ul class="menu-nav">
+                            <li>
+                                <a href="#">Apresentação</a>
+                            </li>
+                            <li>
+                                <a href="#">Comitês</a>
+                            </li>
+                            <li>
+                                <a href="#">Autores</a>
+                            </li>
+                            <li>
+                                <a href="#">Eixos temáticos</a>
+                            </li>
+                            <li>
+                                <a href="#">Trabalhos</a>
+                            </li>
+                            <li>
+                                <a href="#">Contato</a>
+                            </li>
+                    </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </aside>
+        
+        <script type="text/javascript" src="script.js"></script>
         <script src="https://kit.fontawesome.com/6310788b19.js" crossorigin="anonymous"></script>
     </body>
 </html>

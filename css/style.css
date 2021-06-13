@@ -21,6 +21,8 @@ body {
     --laranja-escuro: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     --laranja-escuro-li: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
     --marrom-claro: rgba(141, 53, 6, 0.5);
+    --preto-shadow: rgba(0, 0, 0, 0.25);
+
 
     --fonte-branca: #FFF;
     --fonte-cinza-claro: #5C5C5C;
