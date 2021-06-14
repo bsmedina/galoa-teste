@@ -1,0 +1,42 @@
+.resumo  {
+    border: 1px solid var(--cinza);
+    border-radius: 3px;
+    margin: .5rem 2rem;
+
+}
+
+.title-resumo {
+    background: var(--bege-claro);
+    border-bottom: 1px solid var(--cinza);
+    color: var(--fonte-cinza-medio);
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    height: 5vh;
+    line-height: 1rem;
+    padding: .5rem .8rem;
+    width: 100%;
+}
+
+.text-resumo {
+    color: var(--fonte-cinza-claro);
+    font-family: var(--quicksand);
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    padding: .5rem;
+    text-align: justify;
+}
+
+#mais {
+    display: none;
+}
+
+#linkVerMais {
+    color: var(--fonte-laranja-medio);
+    font-weight: bold;
+    right: 0;
+}
