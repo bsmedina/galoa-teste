@@ -1,3 +1,4 @@
+/* Estrutura para a barra lateral */
 .backdrop {
     background: var(--branco);
     display: none;
@@ -8,18 +9,30 @@
     width: 100%;
 }
 
+/* Irá deixar a barra lateral como block, após o icone do menu ser clicado */
+.backdrop--active {
+    display: block;
+}
+
+/* Estilização e posicionamento da barra lateral */
 .sidebar-menu {
     background: var(--branco);
     box-shadow: 0px 0px 10px var(--preto-shadow);
     height: 100%;
     left: 0;
     position: fixed;
-    transform: translateX(-103%);
+    transform: translateX(-100%);
     top: 0;
     max-width: 18rem;
     width: 70%;
 }
 
+/* Fará com que o menu apareça após ser clicado */
+.sidebar-menu--active {
+    transform: translateX(0);
+}
+
+/* Estilização do título da sidebar */
 .container-sidebar-title {
     background: var(--laranja-escuro);
     height: 3rem;
@@ -40,6 +53,7 @@
     top: 0%;
 }
 
+/* Estilização da imagem de logo que há na sidebar */
 .logo > img {
     align-items: center;
     height: 40vh;
@@ -49,6 +63,7 @@
     width: 95%;
 }
 
+/* Estilização dos itens do menu */
 .container-menu-nav > ul .menu-nav {
     background: var(--branco);
     list-style: none;
@@ -66,6 +81,7 @@
     width: 100%;
 }
 
+/* Estilização do link que há no menu */
 .container-menu-nav > ul > li a {
     border-left: 3px solid transparent;
     color: var(--fonte-marrom-claro);
@@ -75,6 +91,7 @@
 
 }
 
+/* Faz com que o item do menu mude de cor quando passar o mouse */
 .container-menu-nav > ul > li a:hover {
     background: var(--bege-claro);
     border-left-color: var(--laranja);
