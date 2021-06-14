@@ -1,0 +1,192 @@
+/* Layout flex para posicionar os elementos da section */
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: .3rem 2rem;
+}
+
+.container-first-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilização do título cima do vídeo */
+.project-title {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--roboto);
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1rem;
+    padding: .3rem 0;
+    width: 100%;
+}
+
+/* Estilização dos botões e seu conteúdo interno */
+.btn-container {
+    padding-top: .4rem;
+}
+
+.btn-container > .btn {
+    background: var(--laranja-medio);
+    border: 0;
+    border-radius: 4px;
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-size: 0.7rem;
+
+}
+
+.btn-container > #btn-download {
+    height: 4vh;
+    width: 25%;
+}
+
+.btn-container > #btn-favorite {
+    height: 4vh;
+    width: 10%;
+}
+
+.btn-container > #btn-doi {
+    height: 4vh;
+    width: 10%;
+}
+
+.btn-container > #btn-doi > img {
+    align-content: center;
+    height: 14px;
+    width: 15px;
+}
+
+/* Estilização do paragrafo abaixo dos botões */
+.btn-container > .accordin-to {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--roboto);
+    font-size: .6rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1rem;
+    margin: .3rem 0;
+}
+
+/* Estilização do conteúdo de vídeo e detalhes */
+.container-second-content {
+    width: 100%;
+}
+
+.container-video {
+    position: relative;
+}
+
+/* Insere backdround por cima da imagem do vídeo */
+.video::after {
+    background: var(--marrom-claro);
+    border-radius: 3px;
+    bottom: 0;
+    content: '';
+    height: 26vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img-video > img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Estilização e poscionamento dos textos dentro do vídeo */
+.video-title {
+    color: var(--fonte-branca);
+    font-family: var(--roboto);
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    line-height: 1rem;
+    margin: .2rem .5rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.master-round {
+    bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: .2rem .5rem;
+    position: absolute;
+}
+
+.master-round > img {
+    border: 1px solid var(--laranja-medio);
+    border-radius: 50px;
+    height: 5vh;
+    padding: 0.1rem;
+    width: 12%;
+}
+
+.container-name-text {
+    color: var(--fonte-branca);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--roboto);
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 00.05em;
+    line-height: 1rem;
+}
+
+.container-name-text > .university {
+    font-size: 0.7rem;
+}
+
+/* Estilização da div detalhes */
+.details {
+    border: 1px solid var(--cinza);
+    margin-top: .5rem;
+}
+
+.details > .title-details {
+    background: var(--bege-claro);
+    border-bottom: 1px solid var(--cinza);
+    border-radius: 3px 3px 0 0;
+    color: var(--fonte-cinza-medio);
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    height: 5vh;
+    line-height: 1rem;
+    padding: .5rem .8rem;
+    width: 100%;
+}
+
+.details > .text-details {
+    color: var(--fonte-cinza-claro);
+    font-family: var(--quicksand);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    height: 40vh;
+    letter-spacing: 0.02em;
+    line-height: 120%;
+    overflow-y: scroll;
+    padding: .4rem .8rem;
+}
+
+.details > .text-details > .presentation-p {
+    padding-bottom: .7rem;
+}
+
+.details > .text-details > .authors-p {
+    padding-bottom: .7rem;
+}
+
+.details > .text-details > .references-p {
+    color: var(--fonte-cinza);
+    padding-bottom: .3em;
+}
