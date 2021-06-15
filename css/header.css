@@ -134,4 +134,40 @@ nav {
 
 @media screen and (min-width: 992px) {
         /* Para desktop menores */
+
+        /* nav {
+            justify-content: space-around;
+        } */
+
+        .header-title{
+            width: 80%;
+        }
+
+        .container-lang-profile {
+            justify-content: space-between;
+            width: 60%;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    /* Para desktop maiores */
+    header {
+        margin-left: 18rem;
+    }
+
+    .header-title {
+        width: 90%;
+    }
+
+    .header-title > h5 {
+        font-size: 1rem;
+    }
+    
+    .header-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .container-lang-profile {
+        margin-left: 5rem;
+    }
 }
