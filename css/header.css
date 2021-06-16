@@ -135,11 +135,6 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
-        /* Para desktop menores */
-
-        /* nav {
-            justify-content: space-around;
-        } */
 
         .header-title{
             width: 80%;
