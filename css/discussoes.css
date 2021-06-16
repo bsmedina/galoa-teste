@@ -1,0 +1,202 @@
+.discussoes {
+    border: 1px solid var(--cinza);
+    border-radius: 3px;
+    margin: .5rem 2rem;
+}
+
+.topicos {
+    margin-bottom: 1rem;
+}
+
+.text-discussoes {
+    border-bottom: 1px solid var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.title-discussoes {
+    background: var(--bege-claro);
+    border-bottom: 1px solid var(--cinza);
+    color: var(--fonte-cinza-medio);
+    font-family: var(--roboto);
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 500;
+    height: 5vh;
+    line-height: 1rem;
+    padding: .5rem .8rem;
+    width: 100%;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon-text > .title-p {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--roboto);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    height: 5vh;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.icon-text > .text-p {
+    color: var(--fonte-cinza-claro);
+    font-family: var(--quicksand);
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+.create-topic {
+    align-items: center;
+    background: var(--laranja-medio);
+    border: 0;
+    border-radius: 2px;
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-size: 0.7rem;
+    height: 3vh;
+    position: absolute;
+    width: 20%;
+}
+
+.btn-addtopic {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 4rem;
+    padding: 1rem 0;
+    width: 60%;
+    z-index: -1;
+}
+
+.line {
+    border-bottom: 2px solid var(--cinza);
+    position: absolute;
+    width: 55%;
+}
+
+.topicos {
+    border: 1px solid var(--cinza);
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px var(--preto-shadow-claro);
+    width: 100%;
+}
+
+.title {
+    margin: 1rem;
+}
+
+.subject {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--quicksand);
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+.user-name {
+    color: var(--fonte-cinza-claro);
+    font-family: var(--quicksand);
+    font-size: .7rem;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 0.3rem;
+}
+
+.text {
+    color: var(--fonte-cinza-medio2);
+    font-family: var(--quicksand);
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0.5rem 1rem;
+}
+
+.footer-icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem 1rem;
+    width: 50%;
+}
+
+.footer-icons > button {
+    align-items: center;
+    background: var(--laranja-medio);
+    box-shadow: 0px 0px 2px var(--preto-shadow-claro), 0px 2px 2px var(--preto-shadow);
+    border: 0;
+    border-radius: 2px;
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-size: 0.7rem;
+    height: 3vh;
+    width: 15%;
+}
+
+.footer-icons > #dots {
+    color: var(--laranja-medio)
+}
+
+.footer-icons > p {
+    align-items: center;
+    color: var(--fonte-cinza-medio2);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .icon-text > .title-p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .icon-text > .text-p {
+        font-size: 1rem;
+        margin-left: 5rem;
+        width: 80%;
+    }
+
+    .btn-addtopic {
+        margin-left: 12rem;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .discussoes {
+        margin-left: 20rem;
+        margin-top: 2.5rem;
+        margin-right: 10rem;
+    }
+
+    .topicos {
+        margin: 1rem 5rem;
+        width: 80%;
+    }
+
+    .btn-addtopic {
+        margin-left: 15rem;
+    }
+}
