@@ -79,20 +79,22 @@
 
 .container-video {
     position: relative;
+    z-index: -1;
 }
 
-/* Insere backdround por cima da imagem do vídeo */
-/* .video::after {
+/*Insere backdround por cima da imagem do vídeo */
+.video::after {
     background: var(--marrom-claro);
     border-radius: 3px;
     bottom: 0;
     content: '';
-    height: 26vh;
+    height: 99%;
     left: 0;
     position: absolute;
     right: 0;
     top: 0;
-} */
+    width: 100%;
+}
 
 .img-video > img {
     height: 100%;
@@ -193,7 +195,7 @@
     padding-bottom: .3em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
     .project-title {
         font-size: 1.3rem;
         line-height: 1.2rem;
@@ -359,7 +361,6 @@
     }
 
     .container-first-content {
-    border: 1px solid blue;
         flex-direction: row;
         margin-left: 18rem;
     }
@@ -381,7 +382,7 @@
 
     .btn-container > #btn-download {
         height: 4vh;
-        width: 35%;
+        width: 40%;
     }
     
     .btn-container > #btn-favorite {
@@ -400,7 +401,6 @@
     }
 
     .container-second-content {
-        border: 1px solid red;
         display: flex;
         margin-left: 18rem;
         justify-content: space-between;
@@ -414,6 +414,10 @@
 
     .img-video > img {
         height: 80%;
+        width: 90%;
+    }
+
+    .video::after {
         width: 90%;
     }
 
