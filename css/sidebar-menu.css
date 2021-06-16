@@ -1,6 +1,5 @@
 /* Estrutura para a barra lateral */
 .backdrop {
-    background: var(--branco);
     display: none;
     height: 100%;
     left: 0;
@@ -67,6 +66,7 @@
 .container-menu-nav > ul .menu-nav {
     background: var(--branco);
     list-style: none;
+    position: absolute;
     width: 100%;
 }
 
@@ -95,4 +95,24 @@
 .container-menu-nav > ul > li a:hover {
     background: var(--bege-claro);
     border-left-color: var(--laranja);
+}
+
+@media screen and (min-width: 1280px) {
+
+    nav {
+        padding: 0;
+    }
+
+    nav > .header-toggle {
+        display: none;
+    }
+
+    .backdrop {
+        display: block;
+    }
+
+    .sidebar-menu {
+        position: static;
+        transform: translateX(0%);
+    }
 }
