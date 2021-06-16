@@ -97,6 +97,13 @@
     border-left-color: var(--laranja);
 }
 
+@media screen and (min-width: 992px) {
+
+    .backdrop {
+        width: 25%;
+    }
+}
+
 @media screen and (min-width: 1280px) {
 
     nav {
@@ -109,6 +116,7 @@
 
     .backdrop {
         display: block;
+        width: 25%;
     }
 
     .sidebar-menu {
