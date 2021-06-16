@@ -149,7 +149,7 @@ nav {
 @media screen and (min-width: 1280px) {
     /* Para desktop maiores */
     header {
-        margin-left: 18rem;
+        margin-left: 16rem;
     }
 
     .header-title {

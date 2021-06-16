@@ -122,5 +122,6 @@
     .sidebar-menu {
         position: static;
         transform: translateX(0%);
+        width: 75%;
     }
 }
