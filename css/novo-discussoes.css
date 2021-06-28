@@ -1,0 +1,90 @@
+.new-topic {
+    background: var(--branco);
+    display: none;
+    border: 1px solid red;
+}
+
+.new-topic--active {
+    display: block;
+    height: 35vh;
+    top: 35px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    transition: 1s;
+} 
+
+.sugestao {
+    color: var(--fonte-cinza-claro);
+    font-family: var(--quicksand);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-assunto, .label-conteudo {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--roboto);
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 10px;
+    padding: 8px 0;
+}
+
+#assunto, #mensagem {
+    background: var(--branco);
+    border: 1px solid var(--cinza-medio);
+    border-radius: 3px;
+}
+
+#assunto::placeholder {
+    color: var(--fonte-cinza-medio);
+    font-family: var(--quicksand);
+    font-size: .6rem;    
+    font-style: normal;
+    font-weight: normal;
+    line-height: 12px;
+    padding: 5px 8px;
+}
+
+.textarea {
+    background: var(--cinza-);
+    border: 1px solid var(--cinza-medio);
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-txt {
+    padding: 2px 0 2px 10px;
+}
+
+.type-txt .negrito {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.type-txt .italico {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.textarea .btn-txtarea {
+    align-items: center;
+    background: var(--laranja-medio);
+    border: 0;
+    border-radius: 2px;
+    color: var(--branco);
+    font-family: var(--roboto);
+    font-size: 0.7rem;
+    width: 30%;
+}
