@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/content.css" />
         <link rel="stylesheet" href="css/resumo.css">
         <link rel="stylesheet" href="css/discussoes.css">
+        <link rel="stylesheet" href="css/novo-discussoes.css">
         <link rel="stylesheet" href="css/footer.css">
         <title>SLACA 2019</title>
     </head>
@@ -106,14 +107,14 @@
                 <div class="container-first-content">
                     <h2 class="project-title">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
                     <div class="btn-container">
-                        <button type="button" class="btn" id="btn-download">
+                        <button class="btn" id="btn-download">
                             <i class="fas fa-download"></i> 
                             Download
                         </button>
-                        <button type="button" class="btn" id="btn-favorite">
+                        <button class="btn" id="btn-favorite">
                             <i class="fas fa-star"></i>   
                         </button>
-                        <button type="button" class="btn" id="btn-doi">
+                        <button class="btn" id="btn-doi">
                             <img src="img/doi.png" alt="imagem icone doi"> 
                         </button>
                         <p class="accordin-to">COMO CITAR ESSE TRABALHO?</p>
@@ -209,13 +210,32 @@
                             </p>
                         </div>
                         <div class="btn-addtopic">
-                            <div class="line"></div>
-                            <button class="create-topic" type="submit">
-                            <i class="fas fa-plus"></i>
-                            criar tópico
-                            </button>
-                        </div>
+                            <div class="line" ></div>
 
+                        </div>
+                            <button class="create-topic" type="submit" onclick="toggleNewTopic()">
+                                <i class="fas fa-plus"></i>
+                                criar tópico
+                            </button>
+
+                        <div class="new-topic">
+                            <span class="sugestao">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</span>
+                            <form class="form" action="">
+                                <label for="assunto" class="label-assunto">Assunto</label>
+                                <input type="text" id="assunto" placeholder="Defina um tópico sucinto para notificar os autores...">
+
+                                <label for="mensagem" class="label-conteudo">Conteúdo</label>
+                                <textarea name="mensagem" id="mensagem"></textarea>
+                                <div class="textarea">
+                                    <div class="type-txt">
+                                        <span class="negrito">B</span>
+                                        <span class="italico">I</span>
+                                    </div>
+
+                                    <button class="btn-txtarea" type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
                         <div class="topicos">
                             <div class="title">
                                 <p class="subject">Assunto da pergunta aparece aqui</p>
@@ -243,7 +263,7 @@
                                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
                             </div>
                             <div class="footer-icons">
-                                <i id="dots" class="fas fa-ellipsis-v"></i>
+                                <i id="dots2" class="fas fa-ellipsis-v"></i>
                                 <button class="icon-favorite">
                                     <i class="fas fa-heart"></i>
                                 </button>
@@ -261,6 +281,7 @@
         
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/resumo.js"></script>
+        <script type="text/javascript" src="js/novoTopico.js"></script>
         <script src="https://kit.fontawesome.com/6310788b19.js" crossorigin="anonymous"></script>
     </body>
 </html>
