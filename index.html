@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/resumo.css">
         <link rel="stylesheet" href="css/discussoes.css">
         <link rel="stylesheet" href="css/novo-discussoes.css">
+        <link rel="stylesheet" href="css/enviado-discussoes.css">
         <link rel="stylesheet" href="css/footer.css">
         <title>SLACA 2019</title>
     </head>
@@ -232,9 +233,30 @@
                                         <span class="italico">I</span>
                                     </div>
 
-                                    <button class="btn-txtarea" type="submit">Enviar</button>
+                                    <button class="btn-txtarea" type="button" onclick="sendTopic()">Enviar</button>
                                 </div>
                             </form>
+                        </div>
+                        <div class="topico-enviado">
+                            <span class="topico-enviado--title">Seu tópico foi enviado com sucesso! :D</span>
+                            <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                            <a href="#" class="outros-trabalhos">Descubra outros trabalhos!</a>
+                            <div class="line--topico-enviado"></div>
+                            <button class="btn-novoTopico" onclick="newTopic()">criar novo tópico</button>
+                            <div class="aguardando-feedback">
+                                <img class="img-enviado" src="img/icone-feedback.svg" alt="Icone de topico enviado">
+                                <p>Aguardando feedback dos autores</p>
+                                <a href="#" class="editar-topico">Editar tópico</a>
+                            </div>
+                            <div class="topicos-blur" onblur="">
+                                <div class="title">
+                                    <p class="subject">Assunto da pergunta aparece aqui</p>
+                                    <p class="user-name">Carlos Henrique Santos</p>
+                                </div>
+                                <div class="text">
+                                    <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="topicos">
                             <div class="title">
@@ -282,6 +304,7 @@
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/resumo.js"></script>
         <script type="text/javascript" src="js/novoTopico.js"></script>
+        <script type="text/javascript" src="js/enviarTopico.js"></script>
         <script src="https://kit.fontawesome.com/6310788b19.js" crossorigin="anonymous"></script>
     </body>
 </html>
