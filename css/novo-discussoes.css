@@ -1,7 +1,6 @@
 .new-topic {
     background: var(--branco);
     display: none;
-    border: 1px solid red;
 }
 
 .new-topic--active {
