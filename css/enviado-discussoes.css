@@ -1,0 +1,118 @@
+.topico-enviado {
+    background: var(--branco);
+    display: none; 
+    text-align: center;
+}
+
+.topico-enviado--active {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    top: 35px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    /* transition: 1s; */
+} 
+
+.topicos-blur {
+    border: 1px solid var(--cinza);
+    border-radius: 4px;
+    filter: blur(4px);
+    position: absolute;
+    text-align: left;
+    top: 11rem;
+    width: 90%;
+}
+
+.topicos-blur .subject {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--quicksand);
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+.topico-enviado--title {
+    color: var(--laranja-medio);
+    font-family: var(--roboto);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: .5rem;
+    padding: 0.5rem;
+}
+
+.topico-enviado p {
+    color: var(--cinza--escuro);
+    font-family: var(--quicksand);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0.9rem;
+    padding: 0.5rem;
+}
+
+.topico-enviado .outros-trabalhos {
+    color: var(--laranja-claro);
+    font-family: var(--quicksand);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.topico-enviado .line--topico-enviado {
+    border-bottom: 2px solid var(--cinza-claro);
+    position: absolute;
+    top: 9.6rem;
+    width: 89%;
+}
+
+.btn-novoTopico {
+    background: var(--laranja--claro);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px var(--preto-shadow-claro), 0px 2px 2px var(--preto-shadow);
+    color: var(--fonte-branca);
+    font-family: var(--quicksand);
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: bold;
+    height: 3vh;
+    line-height: 0.6rem;
+    position: absolute;
+    top: 9rem;
+    width: 35%;
+}
+
+.aguardando-feedback{
+    padding-top: 4rem;
+}
+
+.topico-enviado .img-enviado {
+    padding-top: 2.7rem;
+}
+
+.topico-enviado .aguardando-feedback p {
+    color: var(--fonte-cinza--claro);
+    font-family: var(--quicksand);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 0.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.topico-enviado .aguardando-feedback .editar-topico {
+    color: var(--fonte-laranja-medio);
+    font-family: var(--quicksand);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.5rem;
+}
