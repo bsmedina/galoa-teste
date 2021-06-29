@@ -17,7 +17,10 @@ body {
     --cinza: #ECECEC;
     --cinza-medio: #CCCCCC;
     --cinza-escuro: #4E4E4E;
+    --cinza--escuro: #595959;
     --laranja: rgb(248, 83, 6);
+    --laranja--claro: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    --laranja-claro: #F48F44;
     --laranja-medio: #ED7839;
     --laranja-transparencia: rgba(248, 83, 6, 0.5);
     --laranja-escuro: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
@@ -32,11 +35,13 @@ body {
     --fonte-cinza-claro: #5C5C5C;
     --fonte-cinza-medio2: #4D4D4D;
     --fonte-cinza-medio: #4E4E4E;
-    --fonte-cinza-escuro: #333333;    
+    --fonte-cinza-escuro: #333333; 
+    --fonte-cinza--claro: #707070;   
     --fonte-laranja-medio: #ED7839;
     --fonte-marrom-claro: #725C5C;
 
     --roboto: 'Roboto', sans-serif;
     --quicksand: 'Quicksand', sans-serif;
+    --segoe: 'Segoe UI', sans-serif;
 }
 
