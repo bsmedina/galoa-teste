@@ -38,19 +38,31 @@
 #linkVerMais {
     color: var(--fonte-laranja-medio);
     font-weight: bold;
-    right: 0;
 }
 
 @media screen and (min-width: 768px) {
 
     .title-resumo {
         font-size: 1rem;
-        line-height: 2rem;
+        line-height: .5rem;
     }
     
     .text-resumo {
-        font-size: .9rem;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .title-resumo {
+        font-size: 1rem;
         line-height: 1rem;
+    }
+    
+    .text-resumo {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
     }
 }
 
@@ -58,16 +70,16 @@
     .resumo  {
         margin-left: 20rem;
         margin-top: 2.5rem;
-        margin-right: 10rem;
+        margin-right: 2rem;
     }
 
     .title-resumo {
         font-size: 1.2rem;
-        line-height: 1.5rem;
+        line-height: 1rem;
     }
     
     .text-resumo {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.3rem;
     }
 }

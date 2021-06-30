@@ -3,6 +3,7 @@
     border-radius: 3px;
     margin: .5rem 2rem;
     position: relative;
+    z-index: 1;
 }
 
 .topicos {
@@ -73,9 +74,9 @@
     font-family: var(--roboto);
     font-size: 0.7rem;
     height: 4vh;
-    left: 7.5rem;
+    left: 8.5rem;
     position: absolute;
-    top: 14.5rem;
+    top: 12.5rem;
     width: 28%;
 }
 
@@ -165,7 +166,7 @@
 .footer-icons > p {
     align-items: center;
     color: var(--fonte-cinza-medio2);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: var(--segoe);
     font-size: 0.7rem;
     font-style: normal;
     font-weight: 350;
@@ -189,6 +190,16 @@
         margin-left: 12rem;
         width: 40%;
     }
+
+    .line {
+        width: 90%;
+    }
+
+    .create-topic {
+        font-size: 0.7rem;
+        left: 15.5rem;
+        top: 12.8rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -199,12 +210,67 @@
         margin-right: 10rem;
     }
 
+    .title-discussoes {
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+
+    .icon-text > .title-p {
+        font-size: 01rem;
+        line-height: 1rem;
+    }
+    
+    .icon-text > .text-p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+
     .topicos {
-        margin: 1rem 5rem;
-        width: 80%;
+        margin: 1rem 1rem;
+        width: 95%;
+    }
+
+    .topicos--active {
+        margin-top: 10rem;
     }
 
     .btn-addtopic {
-        margin-left: 15rem;
+        margin-left: 14rem;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .create-topic {
+        font-size: 0.8rem;
+        left: 18.5rem;
+        top: 12.5rem;
+    }
+
+    .title {
+        margin: 1rem;
+    }
+    
+    .subject {
+        font-size: 1rem;
+    }
+    
+    .user-name {
+        font-size: .9rem;
+    }
+    
+    .text {
+        font-size: 1rem;
+    }
+
+    .footer-icons {
+        margin: 0.5rem 0.5rem;
+        width: 35%;
+    }
+
+    .footer-icons > p {
+        font-size: 0.8rem;
     }
 }

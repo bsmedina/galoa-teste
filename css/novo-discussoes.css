@@ -11,7 +11,6 @@
     left: 0;
     padding: 1rem;
     position: absolute;
-    transition: 1s;
 } 
 
 .sugestao {
@@ -86,4 +85,43 @@ form {
     font-family: var(--roboto);
     font-size: 0.7rem;
     width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .new-topic--active {
+        top: 36px;
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+
+    .new-topic--active {
+        padding: 1rem 2rem;
+    } 
+
+    .sugestao {
+        font-size: 1rem;
+    }
+
+    .label-assunto, .label-conteudo {
+        font-size: 1rem;
+    }
+
+    #assunto::placeholder {
+        font-size: .9rem;    
+    }
+    
+    .type-txt .negrito, .italico {
+        font-size: 1.2rem;
+    }
+
+    .type-txt .italico {
+        font-size: 1.2rem;
+    }
+
+    .textarea .btn-txtarea {
+        font-size: .9rem;
+        width: 25%;
+    }
 }

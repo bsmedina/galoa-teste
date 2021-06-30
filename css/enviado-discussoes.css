@@ -14,7 +14,6 @@
     left: 0;
     padding: 1rem;
     position: absolute;
-    /* transition: 1s; */
 } 
 
 .topicos-blur {
@@ -23,7 +22,7 @@
     filter: blur(4px);
     position: absolute;
     text-align: left;
-    top: 11rem;
+    top: 10rem;
     width: 90%;
 }
 
@@ -91,7 +90,7 @@
 }
 
 .aguardando-feedback{
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .topico-enviado .img-enviado {
@@ -115,4 +114,89 @@
     font-style: normal;
     font-weight: 500;
     line-height: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .topicos-blur {
+        width: 100%;
+    }
+    .topicos-blur .subject {
+        font-size: .9rem;
+    }
+    
+    .topico-enviado--title {
+        font-size: 1rem;
+    }
+    
+    .topico-enviado p {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+    
+    .topico-enviado .outros-trabalhos {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+
+    .btn-novoTopico {
+        font-size: 0.8rem;
+        height: 4vh;
+        line-height: 0.8rem;
+        width: 25%;
+    }
+
+    .aguardando-feedback {
+        padding-top: 2rem;
+    }
+
+    .topico-enviado .aguardando-feedback p {
+        font-size: .9rem;
+        line-height: 0.8rem;
+    }
+
+    .topico-enviado .aguardando-feedback .editar-topico {
+        font-size: .8rem;
+        line-height: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .topicos-blur .subject {
+        font-size: 1rem;;
+    }
+    
+    .topico-enviado--title {
+        font-size: 1.1rem;
+    }
+    
+    .topico-enviado p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    
+    .topico-enviado .outros-trabalhos {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .btn-novoTopico {
+        font-size: 0.9rem;
+        height: 4vh;
+        line-height: 0.7rem;
+        width: 30%;
+    }
+
+    .aguardando-feedback {
+        padding-top: 2rem;
+    }
+
+    .topico-enviado .aguardando-feedback p {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+
+    .topico-enviado .aguardando-feedback .editar-topico {
+        font-size: .9rem;
+        line-height: 0.8rem;
+    }
 }

@@ -11,6 +11,7 @@
 /* Irá deixar a barra lateral como block, após o icone do menu ser clicado */
 .backdrop--active {
     display: block;
+    z-index: 2;
 }
 
 /* Estilização e posicionamento da barra lateral */

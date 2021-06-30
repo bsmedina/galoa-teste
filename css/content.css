@@ -40,17 +40,17 @@
 
 .btn-container > #btn-download {
     height: 4vh;
-    width: 25%;
+    width: 22%;
 }
 
 .btn-container > #btn-favorite {
     height: 4vh;
-    width: 10%;
+    width: 8%;
 }
 
 .btn-container > #btn-doi {
     height: 4vh;
-    width: 10%;
+    width: 8%;
 }
 
 .btn-container > #btn-doi > img {
@@ -74,12 +74,10 @@
 
 /* Estilização do conteúdo de vídeo e detalhes */
 .container-second-content {
-    border: 1px solid green;
     width: 100%;
 }
 
 .container-video {
-    border: 1px solid blue;
     position: relative;
     z-index: -1;
 }
@@ -115,23 +113,22 @@
     margin: .2rem .5rem;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 85%;
 }
 
 .master-round {
-    bottom: 20px;
+    bottom: 10%;
     display: flex;
     justify-content: space-evenly;
-    margin: .2rem .5rem;
     position: absolute;
 }
 
 .master-round > img {
     border: 1px solid var(--laranja-medio);
     border-radius: 50%;
-    height: 5vh;
+    height: 6vh;
     padding: 0.1rem;
-    width: 11%;
+    width: 12%;
 }
 
 .container-name-text {
@@ -228,7 +225,7 @@
     }
 
     .btn-container > .accordin-to {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .video-title {
@@ -236,14 +233,13 @@
         letter-spacing: 0.05em;
         line-height: 1.2rem;
         margin: 1.2rem 1rem;
-        width: 70%;
+        width: 75%;
     }
     
     .master-round {
-        bottom: 20px;
+        bottom: 10%;
         display: flex;
         justify-content: space-evenly;
-        margin: 1rem .5rem;
         position: absolute;
     }
     
@@ -273,6 +269,11 @@
         line-height: 1rem;
     }
 
+    .details > .text-details {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -281,8 +282,8 @@
     }
 
     .project-title {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
         margin-right: 1.5rem;
         width: 85%;
     }
@@ -358,6 +359,11 @@
         font-size: 1rem;
     }
 
+    .details > .text-details {
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+
 }
 
 @media screen and (min-width: 1280px) { 
@@ -370,7 +376,6 @@
     }
 
     .container-first-content {
-        border: 1px solid yellow;
         flex-direction: row;
         margin-left: 18rem;
     }
@@ -383,7 +388,6 @@
     }
 
     .btn-container {
-        border: 1px solid orchid;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
