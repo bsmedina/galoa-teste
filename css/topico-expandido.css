@@ -1,0 +1,70 @@
+    .card-topico-expandido{
+        border: 1px solid var(--cinza);
+        border-radius: 4px;
+        box-shadow: 0px 0px 8px var(--preto-shadow-claro);
+        display: none;
+        width: 100%;
+    }
+
+    .card-topico-expandido--active{
+        display: block;
+    }
+
+    .resposta{
+        border-bottom: 1px solid var(--cinza);
+        padding: 0.6rem 0.6rem;
+    }
+
+    .resposta:nth-child(2n+1) {
+        background-color: var(--cinza-claro2);
+    }
+
+    .resposta-title {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: .5rem;
+    }
+
+    .usuario {
+        color: var(--fonte-cinza-claro);
+        font-family: var(--quicksand);
+        font-size: .9rem;
+        font-style: normal;
+        font-weight: bold;
+        line-height: .5rem;
+    }
+
+    .colaboracao {
+        align-items: center;
+        color: var(--laranja-medio);
+        display: flex;
+        font-family: var(--quicksand);
+        font-size: .8rem;
+        font-weight: 700;
+        line-height: .5rem;
+    }
+
+    .colaboracao p {
+        padding-right: .5rem;
+    }
+
+    .resposta-text{
+        color: var(--fonte-cinza-medio2);
+        font-family: var(--quicksand);
+        font-size: .9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    .resposta-text p{
+        padding-bottom: .5rem;
+    }
+
+@media screen and (min-width: 1280px){
+    .card-topico-expandido{
+        margin: 0 1rem 0 1rem;
+        width: 95%;
+    }
+}
+
