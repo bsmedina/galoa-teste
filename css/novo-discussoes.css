@@ -5,7 +5,7 @@
 
 .new-topic--active {
     display: block;
-    height: 35vh;
+    height: 30vh;
     top: 35px;
     right: 0;
     left: 0;
@@ -76,6 +76,7 @@ form {
     font-weight: bold;
     font-style: italic;
 }
+
 .textarea .btn-txtarea {
     align-items: center;
     background: var(--laranja-medio);
@@ -90,6 +91,7 @@ form {
 @media screen and (min-width: 768px) {
 
     .new-topic--active {
+        height: 30vh;
         top: 36px;
     } 
 }
@@ -97,6 +99,7 @@ form {
 @media screen and (min-width: 1280px) {
 
     .new-topic--active {
+        height: 32vh;
         padding: 1rem 2rem;
     } 
 

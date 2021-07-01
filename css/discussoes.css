@@ -74,9 +74,9 @@
     font-family: var(--roboto);
     font-size: 0.7rem;
     height: 4vh;
-    left: 8.5rem;
+    left: 8rem;
     position: absolute;
-    top: 12.5rem;
+    top: 13.5rem;
     width: 28%;
 }
 
@@ -93,7 +93,7 @@
 .line {
     border-bottom: 2px solid var(--cinza);
     position: absolute;
-    width: 55%;
+    width: 90%;
 }
 
 .topicos {
@@ -101,6 +101,10 @@
     border-radius: 4px;
     box-shadow: 0px 0px 8px var(--preto-shadow-claro);
     width: 100%;
+}
+
+.topicos:nth-child(2n+1){
+    margin-bottom: 0;
 }
 
 .topicos--active {
@@ -163,7 +167,7 @@
     color: var(--laranja-medio)
 }
 
-.footer-icons > p {
+.footer-icons > p, .like, .res {
     align-items: center;
     color: var(--fonte-cinza-medio2);
     font-family: var(--segoe);
@@ -187,7 +191,7 @@
     }
 
     .btn-addtopic {
-        margin-left: 12rem;
+        margin-left: 15rem;
         width: 40%;
     }
 
@@ -196,8 +200,25 @@
     }
 
     .create-topic {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         left: 15.5rem;
+        top: 12.1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .topicos {
+        margin: 1rem 1rem;
+        width: 95%;
+    }
+
+    .btn-addtopic {
+        margin-left: 20rem;
+    }
+
+    .create-topic {
+        font-size: 0.9rem;
+        left: 25.5rem;
         top: 12.8rem;
     }
 }
@@ -245,7 +266,7 @@
 
     .create-topic {
         font-size: 0.8rem;
-        left: 18.5rem;
+        left: 19.5rem;
         top: 12.5rem;
     }
 

@@ -84,7 +84,7 @@
 
 /* Estilização do link que há no menu */
 .container-menu-nav > ul > li a {
-    /* border-left: 4px solid transparent; */
+    border-left: 4px solid transparent;
     color: var(--fonte-marrom-claro);
     display: block;
     padding-left: 2rem;
@@ -94,7 +94,7 @@
 /* Faz com que o item do menu mude de cor quando passar o mouse */
 .container-menu-nav > ul > li a:active {
     background: var(--bege-claro);
-    /* border-left-color: var(--laranja-escuro-li); */
+    border-left-color: var(--laranja-escuro-li);
 }
 
 @media screen and (min-width: 768px) {
